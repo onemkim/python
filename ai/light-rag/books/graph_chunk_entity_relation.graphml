@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d2" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d1" for="node" attr.name="description" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_type" attr.type="string"/>
+<graph edgedefault="undirected"><node id="&quot;IGNORANCE&quot;">
+  <data key="d0">"CONCEPT"</data>
+  <data key="d1">"Ignorance refers to a lack of knowledge or understanding."</data>
+  <data key="d2">chunk-e7637ff18c5ded77a68cce0a87883fad</data>
+</node>
+<node id="&quot;SAM RIVERA&quot;">
+  <data key="d0">"PERSON"</data>
+  <data key="d1">"Sam Rivera is a member of a team working on communicating with an unknown intelligence, showing a mix of awe and anxiety."</data>
+  <data key="d2">chunk-194cd9680f4967f48bea89678f7ece21</data>
+</node>
+</graph></graphml>

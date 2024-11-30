@@ -1,0 +1,11 @@
+2024-11-27 16:19:38,308 - lightrag - INFO - Logger initialized for working directory: ./books
+2024-11-27 16:19:38,308 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-11-27 16:19:38,308 - lightrag - INFO - Load KV full_docs with 0 data
+2024-11-27 16:19:38,308 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-11-27 16:19:38,310 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-11-27 16:19:39,725 - lightrag - INFO - [New Chunks] inserting 42 chunks
+2024-11-27 16:19:39,725 - lightrag - INFO - Inserting 42 vectors to chunks
+2024-11-27 16:19:47,107 - lightrag - INFO - [Entity Extraction]...
+2024-11-27 16:31:17,149 - lightrag - WARNING - Didn't extract any relationships, maybe your LLM is not working
+2024-11-27 16:31:17,150 - lightrag - WARNING - No new entities and relationships found
+2024-11-27 16:31:17,157 - lightrag - INFO - Writing graph with 2 nodes, 0 edges
