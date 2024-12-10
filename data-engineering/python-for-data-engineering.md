@@ -1,11 +1,11 @@
 Reference:
 - https://medium.com/@mariusz_kujawski/python-for-data-engineering-6bd6140033d4
+- https://www.geeksforgeeks.org/literals-in-python/
 
 # Build-in data structures
 Python provides several built-in data structures that are widely used for various purposes. List, Tuple, Dictionary, and Set are four different types of data structures, each with its characteristics and use cases.
 
 ## List
-
 Mutable: Lists are mutable, meaning you can modify their elements after the list is created. You can add, remove, or modify elements.
 
 Syntax: Defined using square brackets [].
@@ -17,7 +17,6 @@ my_list.remove('a')  # Removes the element 'a'
 ```
 
 ## Tuple
-
 Immutable: Tuples are immutable, meaning once they are created, their elements cannot be changed or modified. Unlike lists, you can’t add or remove elements from a tuple.
 
 Syntax: Defined using parentheses ().
@@ -27,7 +26,6 @@ my_tuple = (1, 2, 3, 'a', 'b', 'c')
 ```
 
 ## Dictionary
-
 Dictionaries are used to store data values in key-value pairs. A dictionary is a collection that is changeable and does not allow duplicates in the keys.
 
 ``` python
@@ -39,7 +37,6 @@ thisdict = {
 ```
 
 ## Set
-
 Unordered and Unique Elements: Sets are unordered collections of unique elements. They do not allow duplicate values, and the order of elements is not guaranteed.
 
 Syntax: Defined using curly braces {} or by using the set() constructor.

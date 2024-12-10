@@ -1,16 +1,30 @@
-/opt/homebrew/opt/openjdk@11/bin:
-/Users/minkim/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:
-/Library/Frameworks/Python.framework/Versions/3.10/bin:
-/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:
-/System/Cryptexes/App/usr/bin:
-/usr/bin:
-/bin:
-/usr/sbin:
-/sbin:
-/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:
-/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:
-/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:
-/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:
-/Users/minkim/Library/Application Support/cloud-code/installer/google-cloud-sdk/bin:
-/opt/homebrew/opt/openjdk@11/bin:
-/Library/Frameworks/Python.framework/Versions/3.10/bin
+class Vehicle:
+  def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+
+  def move(self):
+    print("Move!")
+
+class Car(Vehicle):
+  pass
+
+class Boat(Vehicle):
+  def move(self):
+    print("Sail!")
+
+class Plane(Vehicle):
+  def move(self):
+    print("Fly!")
+
+car1 = Car("Ford", "Mustang") #Create a Car object
+boat1 = Boat("Ibiza", "Touring 20") #Create a Boat object
+plane1 = Plane("Boeing", "747") #Create a Plane object
+
+for x in (car1, boat1, plane1):
+  print(x.brand)
+  print(x.model)
+  x.move()
+
+for y in (car1, boat1, plane1):
+  y.move()
