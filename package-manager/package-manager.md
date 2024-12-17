@@ -7,6 +7,9 @@ Several alternatives to Anaconda exist. Each one offers unique features and adva
 
 Below, we will explore a few of these alternatives, focusing on their features and ideal use cases. These are listed in no particular order; the best one will depend on your needs.
 
+## Anaconda
+Anaconda is an open source data science and artificial intelligence distribution platform for Python and R programming languages. Developed by Anaconda, Inc., an American company founded in 2012, the platform is used to develop and manage data science and AI projects.
+
 ## Miniconda
 Miniconda is a minimal installer for Conda, designed to provide core Conda functionality without the extra packages and tools included in the full Anaconda distribution. 
 
